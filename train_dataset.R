@@ -104,9 +104,8 @@ table_dilivery <- df_filtered %>%
   mutate(total_all_groups = sum(total)) %>% 
   mutate(percentage = round(total/total_all_groups * 100,2))
 
-
 # 날짜별 합 
-df_long <- df %>% 
+df_long <- df_filtered %>% 
   gather(key = "datetime", value = "count", starts_with("day_")) %>% 
   mutate(date = str_sub(datetime, 1, 10)) %>% 
   filter(count>0) %>% 
@@ -114,7 +113,16 @@ df_long <- df %>%
   summarise(total_deliver = sum(count, na.rm = TRUE),
             total_riders = n_distinct(rider_user_id))
 
-# 자동차 group2 
+# group2, car hour
+# 5월 27일, 28일에 해당하는 컬럼 이름들을 추출
+selected_dates <- grep("^day_05_(27|28)_", names(df), value = TRUE)
 
-
+# 필터링하고 조합
+car_df <- df_filtered %>%
+  filter(group == 'group_2', delivery_method == 'CAR') %>%
+  dplyr::select(rider_user_id, all_of(selected_dates)) %>%
+  gather(key = 'date_time', value = 'count', -rider_user_id) %>%
+  group_by(date_time) %>%
+  summarise(total_count = sum(count, na.rm = TRUE),
+            unique_rider_count = n_distinct(rider_user_id[count > 0])) 
 
