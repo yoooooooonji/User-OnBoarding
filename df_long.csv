@@ -1,0 +1,197 @@
+group,delivery_method,date,total_riders,total_deliver
+group_1,BIKE,day_05_15_,"1,557 ","12,991 "
+group_1,CAR,day_05_15_,170 ,387 
+group_1,GENERAL_BICYCLES,day_05_15_,84 ,284 
+group_1,KICKBOARD,day_05_15_,53 ,194 
+group_1,PAS_BICYCLES,day_05_15_,227 ,944 
+group_1,THROTTLE_BICYCLES,day_05_15_,93 ,441 
+group_1,WALK,day_05_15_,230 ,662 
+group_3,BIKE,day_05_15_,"20,993 ","279,106 "
+group_3,CAR,day_05_15_,"1,184 ","4,045 "
+group_3,GENERAL_BICYCLES,day_05_15_,512 ,"2,663 "
+group_3,KICKBOARD,day_05_15_,161 ,"1,116 "
+group_3,PAS_BICYCLES,day_05_15_,"1,561 ","11,779 "
+group_3,THROTTLE_BICYCLES,day_05_15_,864 ,"7,124 "
+group_3,WALK,day_05_15_,"1,591 ","9,223 "
+group_1,BIKE,day_05_16_,"1,640 ","13,047 "
+group_1,CAR,day_05_16_,177 ,411 
+group_1,GENERAL_BICYCLES,day_05_16_,103 ,342 
+group_1,KICKBOARD,day_05_16_,41 ,134 
+group_1,PAS_BICYCLES,day_05_16_,225 ,902 
+group_1,THROTTLE_BICYCLES,day_05_16_,108 ,515 
+group_1,WALK,day_05_16_,180 ,525 
+group_3,BIKE,day_05_16_,"22,105 ","288,640 "
+group_3,CAR,day_05_16_,"1,206 ","4,098 "
+group_3,GENERAL_BICYCLES,day_05_16_,540 ,"3,013 "
+group_3,KICKBOARD,day_05_16_,173 ,"1,230 "
+group_3,PAS_BICYCLES,day_05_16_,"1,679 ","12,982 "
+group_3,THROTTLE_BICYCLES,day_05_16_,979 ,"8,210 "
+group_3,WALK,day_05_16_,"1,638 ","9,633 "
+group_1,BIKE,day_05_17_,"1,392 ","10,607 "
+group_1,CAR,day_05_17_,179 ,400 
+group_1,GENERAL_BICYCLES,day_05_17_,94 ,396 
+group_1,KICKBOARD,day_05_17_,42 ,149 
+group_1,PAS_BICYCLES,day_05_17_,238 ,"1,006 "
+group_1,THROTTLE_BICYCLES,day_05_17_,119 ,663 
+group_1,WALK,day_05_17_,198 ,599 
+group_3,BIKE,day_05_17_,"21,527 ","295,082 "
+group_3,CAR,day_05_17_,"1,292 ","5,131 "
+group_3,GENERAL_BICYCLES,day_05_17_,578 ,"3,773 "
+group_3,KICKBOARD,day_05_17_,187 ,"1,497 "
+group_3,PAS_BICYCLES,day_05_17_,"1,743 ","15,127 "
+group_3,THROTTLE_BICYCLES,day_05_17_,"1,005 ","9,704 "
+group_3,WALK,day_05_17_,"1,621 ","10,274 "
+group_1,BIKE,day_05_18_,"1,144 ","9,034 "
+group_1,CAR,day_05_18_,194 ,492 
+group_1,GENERAL_BICYCLES,day_05_18_,95 ,302 
+group_1,KICKBOARD,day_05_18_,17 ,79 
+group_1,PAS_BICYCLES,day_05_18_,216 ,990 
+group_1,THROTTLE_BICYCLES,day_05_18_,94 ,460 
+group_1,WALK,day_05_18_,157 ,490 
+group_3,BIKE,day_05_18_,"21,482 ","306,268 "
+group_3,CAR,day_05_18_,"1,494 ","6,871 "
+group_3,GENERAL_BICYCLES,day_05_18_,581 ,"3,782 "
+group_3,KICKBOARD,day_05_18_,186 ,"1,471 "
+group_3,PAS_BICYCLES,day_05_18_,"1,648 ","14,482 "
+group_3,THROTTLE_BICYCLES,day_05_18_,983 ,"9,199 "
+group_3,WALK,day_05_18_,"1,660 ","10,942 "
+group_1,BIKE,day_05_19_,"1,311 ","10,355 "
+group_1,CAR,day_05_19_,164 ,372 
+group_1,GENERAL_BICYCLES,day_05_19_,94 ,401 
+group_1,KICKBOARD,day_05_19_,40 ,153 
+group_1,PAS_BICYCLES,day_05_19_,244 ,"1,194 "
+group_1,THROTTLE_BICYCLES,day_05_19_,113 ,665 
+group_1,WALK,day_05_19_,163 ,603 
+group_3,BIKE,day_05_19_,"23,939 ","340,929 "
+group_3,CAR,day_05_19_,"1,446 ","5,967 "
+group_3,GENERAL_BICYCLES,day_05_19_,598 ,"4,287 "
+group_3,KICKBOARD,day_05_19_,202 ,"1,552 "
+group_3,PAS_BICYCLES,day_05_19_,"1,889 ","17,354 "
+group_3,THROTTLE_BICYCLES,day_05_19_,"1,124 ","10,749 "
+group_3,WALK,day_05_19_,"1,673 ","11,555 "
+group_1,BIKE,day_05_20_,"1,395 ","13,644 "
+group_1,CAR,day_05_20_,194 ,567 
+group_1,GENERAL_BICYCLES,day_05_20_,154 ,"1,020 "
+group_1,KICKBOARD,day_05_20_,50 ,298 
+group_1,PAS_BICYCLES,day_05_20_,317 ,"2,467 "
+group_1,THROTTLE_BICYCLES,day_05_20_,146 ,"1,233 "
+group_1,WALK,day_05_20_,180 ,824 
+group_3,BIKE,day_05_20_,"23,493 ","406,461 "
+group_3,CAR,day_05_20_,"1,667 ","9,775 "
+group_3,GENERAL_BICYCLES,day_05_20_,687 ,"7,215 "
+group_3,KICKBOARD,day_05_20_,206 ,"2,278 "
+group_3,PAS_BICYCLES,day_05_20_,"1,992 ","25,492 "
+group_3,THROTTLE_BICYCLES,day_05_20_,"1,133 ","15,577 "
+group_3,WALK,day_05_20_,"1,678 ","14,802 "
+group_1,BIKE,day_05_21_,"1,195 ","11,585 "
+group_1,CAR,day_05_21_,179 ,579 
+group_1,GENERAL_BICYCLES,day_05_21_,137 ,"1,076 "
+group_1,KICKBOARD,day_05_21_,47 ,297 
+group_1,PAS_BICYCLES,day_05_21_,298 ,"2,352 "
+group_1,THROTTLE_BICYCLES,day_05_21_,138 ,"1,229 "
+group_1,WALK,day_05_21_,190 ,805 
+group_3,BIKE,day_05_21_,"23,116 ","418,132 "
+group_3,CAR,day_05_21_,"1,696 ","10,707 "
+group_3,GENERAL_BICYCLES,day_05_21_,675 ,"7,364 "
+group_3,KICKBOARD,day_05_21_,208 ,"2,287 "
+group_3,PAS_BICYCLES,day_05_21_,"1,990 ","26,519 "
+group_3,THROTTLE_BICYCLES,day_05_21_,"1,125 ","16,377 "
+group_3,WALK,day_05_21_,"1,703 ","15,646 "
+group_2,BIKE,day_05_22_,906 ,"5,880 "
+group_2,CAR,day_05_22_,150 ,380 
+group_2,GENERAL_BICYCLES,day_05_22_,64 ,162 
+group_2,KICKBOARD,day_05_22_,21 ,71 
+group_2,PAS_BICYCLES,day_05_22_,124 ,448 
+group_2,THROTTLE_BICYCLES,day_05_22_,62 ,194 
+group_2,WALK,day_05_22_,115 ,348 
+group_3,BIKE,day_05_22_,"22,102 ","283,524 "
+group_3,CAR,day_05_22_,"1,377 ","5,655 "
+group_3,GENERAL_BICYCLES,day_05_22_,577 ,"3,154 "
+group_3,KICKBOARD,day_05_22_,184 ,"1,318 "
+group_3,PAS_BICYCLES,day_05_22_,"1,762 ","12,843 "
+group_3,THROTTLE_BICYCLES,day_05_22_,965 ,"7,806 "
+group_3,WALK,day_05_22_,"1,653 ","9,563 "
+group_2,BIKE,day_05_23_,"1,151 ","7,984 "
+group_2,CAR,day_05_23_,141 ,347 
+group_2,GENERAL_BICYCLES,day_05_23_,66 ,167 
+group_2,KICKBOARD,day_05_23_,33 ,126 
+group_2,PAS_BICYCLES,day_05_23_,151 ,495 
+group_2,THROTTLE_BICYCLES,day_05_23_,74 ,255 
+group_2,WALK,day_05_23_,125 ,392 
+group_3,BIKE,day_05_23_,"22,508 ","279,262 "
+group_3,CAR,day_05_23_,"1,254 ","3,989 "
+group_3,GENERAL_BICYCLES,day_05_23_,567 ,"2,691 "
+group_3,KICKBOARD,day_05_23_,178 ,"1,114 "
+group_3,PAS_BICYCLES,day_05_23_,"1,704 ","11,337 "
+group_3,THROTTLE_BICYCLES,day_05_23_,"1,023 ","7,638 "
+group_3,WALK,day_05_23_,"1,652 ","9,338 "
+group_2,BIKE,day_05_24_,"1,491 ","11,449 "
+group_2,CAR,day_05_24_,158 ,360 
+group_2,GENERAL_BICYCLES,day_05_24_,60 ,181 
+group_2,KICKBOARD,day_05_24_,38 ,128 
+group_2,PAS_BICYCLES,day_05_24_,194 ,844 
+group_2,THROTTLE_BICYCLES,day_05_24_,82 ,374 
+group_2,WALK,day_05_24_,132 ,496 
+group_3,BIKE,day_05_24_,"21,658 ","293,947 "
+group_3,CAR,day_05_24_,"1,252 ","4,606 "
+group_3,GENERAL_BICYCLES,day_05_24_,569 ,"2,901 "
+group_3,KICKBOARD,day_05_24_,172 ,"1,257 "
+group_3,PAS_BICYCLES,day_05_24_,"1,679 ","12,496 "
+group_3,THROTTLE_BICYCLES,day_05_24_,"1,030 ","8,523 "
+group_3,WALK,day_05_24_,"1,583 ","8,641 "
+group_2,BIKE,day_05_25_,"1,610 ","13,923 "
+group_2,CAR,day_05_25_,167 ,465 
+group_2,GENERAL_BICYCLES,day_05_25_,75 ,224 
+group_2,KICKBOARD,day_05_25_,29 ,88 
+group_2,PAS_BICYCLES,day_05_25_,213 ,910 
+group_2,THROTTLE_BICYCLES,day_05_25_,113 ,458 
+group_2,WALK,day_05_25_,167 ,532 
+group_3,BIKE,day_05_25_,"22,226 ","311,195 "
+group_3,CAR,day_05_25_,"1,224 ","4,633 "
+group_3,GENERAL_BICYCLES,day_05_25_,567 ,"3,247 "
+group_3,KICKBOARD,day_05_25_,186 ,"1,266 "
+group_3,PAS_BICYCLES,day_05_25_,"1,732 ","13,300 "
+group_3,THROTTLE_BICYCLES,day_05_25_,"1,010 ","8,754 "
+group_3,WALK,day_05_25_,"1,586 ","9,335 "
+group_2,BIKE,day_05_26_,"1,871 ","17,567 "
+group_2,CAR,day_05_26_,211 ,635 
+group_2,GENERAL_BICYCLES,day_05_26_,102 ,393 
+group_2,KICKBOARD,day_05_26_,29 ,184 
+group_2,PAS_BICYCLES,day_05_26_,269 ,"1,541 "
+group_2,THROTTLE_BICYCLES,day_05_26_,138 ,800 
+group_2,WALK,day_05_26_,176 ,685 
+group_3,BIKE,day_05_26_,"23,085 ","348,667 "
+group_3,CAR,day_05_26_,"1,417 ","6,255 "
+group_3,GENERAL_BICYCLES,day_05_26_,623 ,"4,350 "
+group_3,KICKBOARD,day_05_26_,187 ,"1,560 "
+group_3,PAS_BICYCLES,day_05_26_,"1,909 ","17,839 "
+group_3,THROTTLE_BICYCLES,day_05_26_,"1,114 ","11,258 "
+group_3,WALK,day_05_26_,"1,670 ","11,072 "
+group_2,BIKE,day_05_27_,"2,105 ","25,603 "
+group_2,CAR,day_05_27_,530 ,"2,628 "
+group_2,GENERAL_BICYCLES,day_05_27_,125 ,694 
+group_2,KICKBOARD,day_05_27_,34 ,116 
+group_2,PAS_BICYCLES,day_05_27_,311 ,"1,730 "
+group_2,THROTTLE_BICYCLES,day_05_27_,114 ,526 
+group_2,WALK,day_05_27_,290 ,"1,591 "
+group_3,BIKE,day_05_27_,"20,773 ","410,379 "
+group_3,CAR,day_05_27_,"1,843 ","14,940 "
+group_3,GENERAL_BICYCLES,day_05_27_,505 ,"4,982 "
+group_3,KICKBOARD,day_05_27_,132 ,"1,196 "
+group_3,PAS_BICYCLES,day_05_27_,"1,312 ","14,416 "
+group_3,THROTTLE_BICYCLES,day_05_27_,687 ,"8,237 "
+group_3,WALK,day_05_27_,"1,469 ","15,210 "
+group_2,BIKE,day_05_28_,"2,071 ","28,081 "
+group_2,CAR,day_05_28_,680 ,"3,993 "
+group_2,GENERAL_BICYCLES,day_05_28_,144 ,790 
+group_2,KICKBOARD,day_05_28_,26 ,109 
+group_2,PAS_BICYCLES,day_05_28_,320 ,"2,101 "
+group_2,THROTTLE_BICYCLES,day_05_28_,95 ,619 
+group_2,WALK,day_05_28_,323 ,"1,909 "
+group_3,BIKE,day_05_28_,"19,432 ","414,002 "
+group_3,CAR,day_05_28_,"1,904 ","17,431 "
+group_3,GENERAL_BICYCLES,day_05_28_,453 ,"5,306 "
+group_3,KICKBOARD,day_05_28_,96 ,"1,101 "
+group_3,PAS_BICYCLES,day_05_28_,"1,054 ","14,391 "
+group_3,THROTTLE_BICYCLES,day_05_28_,571 ,"8,031 "
+group_3,WALK,day_05_28_,"1,386 ","14,613 "

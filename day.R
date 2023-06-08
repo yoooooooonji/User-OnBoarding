@@ -14,10 +14,10 @@ ipak(pkg)
 
 ##########################################################################################################################################################
 # data load
-df <- read_excel("/Users/yj.noh/Desktop/rider_pattern_hour_method.xlsx")
+df <- read_excel("/Users/yj.noh/Desktop/rider_pattern_day_method.xlsx")
 
-n_distinct(df$rider_user_id) #64954
-dim(df) # 66311 
+n_distinct(df$rider_user_id) #65394
+dim(df) # 65394
 
 df <- df  %>% group_by(rider_user_id ) %>% mutate(rider_n = n())
 
@@ -26,9 +26,9 @@ n_2 <- df  %>% filter(rider_n==2)
 n_3 <- df  %>% filter(rider_n==3)
 n_4 <- df  %>% filter(rider_n==4)
 
-n_distinct(n_1$rider_user_id) #63696
-n_distinct(n_2$rider_user_id) # 1161
-n_distinct(n_3$rider_user_id) # 95
+n_distinct(n_1$rider_user_id) #63619
+n_distinct(n_2$rider_user_id) # 1162
+n_distinct(n_3$rider_user_id) # 94
 n_distinct(n_4$rider_user_id) # 2 
 
 # 파생 변수 생성 
