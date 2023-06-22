@@ -186,4 +186,4 @@ quantile(rider_full_group_3$total_days_active, 0.9) #13
 
 ####### 운송수단 변경 
 df_multi <- df  %>% filter(rider_n %in% c(2,3,4))
-df_multi_filter <- df_multi  %>% filter(count>0)
+
