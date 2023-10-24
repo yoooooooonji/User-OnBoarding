@@ -18,11 +18,14 @@ data <- read_excel("/Users/yj.noh/Desktop/on_boarding_data.xlsx")
 head(data)
 str(data)
 
+data <- data  %>% mutate(is_recom = ifelse (is_recom == TRUE, 1, 0))
+
 data[c("birth", "delivery_method", "is_recom", "gender", "day_cnt", "avg_cnt", "outcome")] %>% 
   tbl_summary(
     by = outcome,
    type = list(
-    all_continuous() ~ "continuous2"
+    day_cnt ~ "continuous2",
+    avg_cnt ~ "continuous2"
    ),  
     statistic = all_continuous() ~ c("{mean} ({sd})", "{min}, {max}"),
     missing_text = "(Missing value)", 
@@ -31,3 +34,8 @@ data[c("birth", "delivery_method", "is_recom", "gender", "day_cnt", "avg_cnt", "
   add_overall() %>%
   add_p(pvalue_fun = ~style_pvalue(., digits = 3)) %>%
   bold_labels()
+
+
+
+model <- glm(outcome ~ avg_cnt + day_cnt, data = data, family = binomial)
+summary(model)
