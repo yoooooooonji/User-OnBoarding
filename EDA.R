@@ -14,13 +14,17 @@ ipak(pkg)
 
 ##########################################################################################################################################################
 # data load
-data <- read_excel("/Users/yj.noh/Desktop/on_boarding_data.xlsx")
+data <- read_excel("/Users/yj.noh/Documents/GitHub/prj_on_boarding/data_filtered_both.xlsx")
+#data <- read_excel("/Users/yj.noh/Desktop/on_boarding_data.xlsx")
 head(data)
 str(data)
 
 data <- data  %>% mutate(is_recom = ifelse (is_recom == TRUE, 1, 0))
 
-data[c("birth", "delivery_method", "is_recom", "gender", "day_cnt", "avg_cnt", "outcome")] %>% 
+dim(data) 
+
+
+data[c("birth", "delivery_method", "insurance_type", "is_recom", "gender", "day_cnt", "avg_cnt", "outcome")] %>% 
   tbl_summary(
     by = outcome,
    type = list(
@@ -37,5 +41,4 @@ data[c("birth", "delivery_method", "is_recom", "gender", "day_cnt", "avg_cnt", "
 
 
 
-model <- glm(outcome ~ avg_cnt + day_cnt, data = data, family = binomial)
-summary(model)
+
