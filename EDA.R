@@ -24,12 +24,14 @@ dim(data)
 data <- data  %>% mutate(is_recom = ifelse (is_recom == TRUE, 1, 0))
 
 
-data[c("birth", "delivery_method", "insurance_type", "is_recom", "gender", "day_cnt", "avg_cnt", "outcome")] %>% 
+data[c("birth", "delivery_method", "insurance_type", "is_recom", "gender", "avg_daily_delivery", "active_days", "avg_distance", "avg_fee", "outcome")] %>% 
   tbl_summary(
     by = outcome,
    type = list(
-    day_cnt ~ "continuous2",
-    avg_cnt ~ "continuous2"
+    avg_daily_delivery ~ "continuous2",
+    active_days ~ "continuous2",
+    avg_distance ~ "continuous2",
+    avg_fee ~ "continuous2"
    ),  
     statistic = all_continuous() ~ c("{mean} ({sd})", "{min}, {max}"),
     missing_text = "(Missing value)", 
@@ -44,12 +46,14 @@ data[c("birth", "delivery_method", "insurance_type", "is_recom", "gender", "day_
 # bike만
 bike <- read_excel("/Users/yj.noh/Documents/GitHub/prj_on_boarding/data_filtered_both.xlsx")
 
-bike[c("birth", "delivery_method", "insurance_type", "is_recom", "gender", "day_cnt", "avg_cnt", "outcome")] %>% 
+bike[c("birth", "delivery_method", "insurance_type", "is_recom", "gender", "avg_daily_delivery", "active_days", "avg_distance", "avg_fee", "outcome")] %>% 
   tbl_summary(
     by = outcome,
    type = list(
-    day_cnt ~ "continuous2",
-    avg_cnt ~ "continuous2"
+     avg_daily_delivery ~ "continuous2",
+    active_days ~ "continuous2",
+    avg_distance ~ "continuous2",
+    avg_fee ~ "continuous2"
    ),  
     statistic = all_continuous() ~ c("{mean} ({sd})", "{min}, {max}"),
     missing_text = "(Missing value)", 
