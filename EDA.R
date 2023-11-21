@@ -45,15 +45,21 @@ data[c("birth", "delivery_method", "insurance_type", "is_recom", "gender", "avg_
 
 # bike만
 bike <- read_excel("/Users/yj.noh/Documents/GitHub/prj_on_boarding/data_filtered_both.xlsx")
+str(bike)
 
-bike[c("birth", "delivery_method", "insurance_type", "is_recom", "gender", "avg_daily_delivery", "active_days", "avg_distance", "avg_fee", "outcome")] %>% 
+bike[c("birth", "delivery_method", "insurance_type", "is_recom", "gender", "avg_daily_delivery", "active_days", "avg_distance", "avg_fee", "avg_distance_1_to_3", "avg_fee_1_to_3", "join_period", "from_join_to_first_able", "from_first_able_to_start", "outcome")] %>% 
   tbl_summary(
     by = outcome,
    type = list(
-     avg_daily_delivery ~ "continuous2",
+    avg_daily_delivery ~ "continuous2",
     active_days ~ "continuous2",
     avg_distance ~ "continuous2",
-    avg_fee ~ "continuous2"
+    avg_fee ~ "continuous2",
+    avg_distance_1_to_3 ~ "continuous2",
+    avg_fee_1_to_3 ~ "continuous2",
+    join_period ~ "continuous2",
+    from_join_to_first_able ~ "continuous2",
+    from_first_able_to_start ~ "continuous2"
    ),  
     statistic = all_continuous() ~ c("{mean} ({sd})", "{min}, {max}"),
     missing_text = "(Missing value)", 
